@@ -7,14 +7,13 @@
 # 策略选择：选择支持OpenAI的地区
 #############################################
 
+host, cdn.auth0.com, proxy
+host, openaiapi-site.azureedge.net, proxy
+host, challenges.cloudflare.com, proxy
 host-suffix, ai.com, proxy
-host-keyword, gpt, proxy
-host-keyword, openai, proxy
 host-suffix, openai.com, proxy
 host-suffix, vimeo.com, proxy
 host-suffix, vimeocdn.com, proxy
 host-suffix, hcaptcha.com, proxy
 host-suffix, akamaized.com, proxy
-host, cdn.auth0.com, proxy
-host, openaiapi-site.azureedge.net, proxy
-host, challenges.cloudflare.com, proxy
+host-keyword, gpt, proxy
